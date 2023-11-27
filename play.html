@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pokemon Rock Paper Scissors</title>
+        <link rel = "stylesheet" type = "text/css" href = "design.css"/>
+        <script src = "pokemon_utilities.js"> </script>
+    </head>
+    <body onload = "initialize();">
+        <div class = buttonsContainer>
+            <button class = "menuButton">MENU</button>
+            <button class = "randomizeButton" onclick = "randomize();">RANDOMIZE</button>
+            <a href = "Level_3.html">
+                <button class = "returnButton">RETURN</button>
+            </a>
+        </div>
+        <div class = "playBoard">
+            <div class = "playerInv">
+                <div class = "partySlot" id = "slot1">
+                    <img id = "pokemonIcon" src = "assets/pokeball.png">    
+                </div>
+                <div class = "partySlot" id = "slot2">
+                    <img id = "pokemonIcon" src = "assets/pokeball.png">    
+                </div>
+                <div class = "partySlot" id = "slot3">
+                    <img id = "pokemonIcon" src = "assets/pokeball.png">    
+                </div>
+                <div class = "partySlot" id = "slot4">
+                    <img id = "pokemonIcon" src = "assets/pokeball.png">    
+                </div>
+                <div class = "partySlot" id = "slot5">
+                    <img id = "pokemonIcon" src = "assets/pokeball.png">    
+                </div>
+                <div class = "partySlot" id = "slot6">
+                    <img id = "pokemonIcon" src = "assets/pokeball.png">    
+                </div>
+                <div class = "partySlot" id = "slot7">
+                    <img id = "pokemonIcon" src = "assets/pokeball.png">    
+                </div>
+                <div class = "partySlot" id = "slot8">
+                    <img id = "pokemonIcon" src = "assets/pokeball.png">    
+                </div>
+                <div class = "partySlot" id = "slot9">
+                    <img id = "pokemonIcon" src = "assets/pokeball.png">    
+                </div>
+                <div class = "partySlot" id = "slot10">
+                    <img id = "pokemonIcon" src = "assets/pokeball.png">    
+                </div>
+                <div class = "partySlot" id = "slot11">
+                    <img id = "pokemonIcon" src = "assets/pokeball.png">    
+                </div>
+                <div class = "partySlot" id = "slot12">
+                    <img id = "pokemonIcon" src = "assets/pokeball.png">    
+                </div>
+            </div>
+            <div class = "displayBox">
+                <div class = "yourPokemon">
+                    <img id = "pokemon1">
+                </div>
+                <div class = "enemyPokemon">
+                    <img id = "pokemon2">
+                </div>
+            </div>
+            <div class = "enemyInfo">
+                <div class = "enemyIcon" id = "ENEMEYICON">
+                    <img id = "icon" src = "assets/focalors.png">
+                </div>
+                <div id = "enemyText">
+                    Enemy Name: <span id = "enemyNameValue" style = "font-weight: bold; font-size: 20pt;">Furina</span>
+                    Remaining Pokemon: <span id = "remainingValue" style = "font-weight: bold; font-size: 20pt;">6</span>
+                    <!-- Difficulty: <span id = "difficultyValye" style = "font-weight: bold; font-size: 20pt;">Easy</span> -->
+                    Comments: <span id = "enemyComments" style = "font-weight: bold; font-size: 14pt;"></span>
+                </div>
+            </div>
+            <div class = "textBox">
+                <div class = "txt">
+                    <span id = "text">Select a Pokemon.</span>
+                </div>
+            </div>
+        </div>
+        <p class = "sig">Rachel</p>
+
+    </body>
+</html>
